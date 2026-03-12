@@ -21,7 +21,7 @@ pipeline {
         }
         stage('Dummy Build') {
             steps {
-                sh 'echo "Building..."'
+                sh 'echo "Build
                 sh 'sleep 2'
                 echo 'Build complete'
             }
